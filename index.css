@@ -1,3 +1,7 @@
+.body {
+    background-image: url('./backgroundgradient.png');
+}
+
 .container {
     display: flex;
     justify-content: center;
