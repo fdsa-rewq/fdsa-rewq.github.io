@@ -1,5 +1,7 @@
 body {
     background-image: url('./backgroundgradient.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
