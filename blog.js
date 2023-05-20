@@ -25,7 +25,7 @@ fetch('./posts/posts.json')
             <p>Date: ${entry.date}</p>
             <hr>
             <p>${entry.contents}</p>
-            <p><img src="${entry.bottompicture}" alt="${entry.picturealt}" class="blogPostImageBottom"></p>
+            <img src="${entry.bottompicture}" alt="${entry.picturealt}" class="blogPostImageBottom">
           `;
           } else {
             entryElement.innerHTML = `
