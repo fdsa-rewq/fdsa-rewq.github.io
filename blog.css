@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(140deg, #7a26fe, #fe37c9);
+    background-attachment: fixed;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.blogEntry {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.5vh;
+    background-color: rgba(80, 80, 80, 0.5);
+}
+
+.blogPostImage {
+    width: 10vw;
+}
+
+.centeredDown {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2vh;
+}
+
+.titleEllipse {
+    width: 160px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(-5deg);
+}
+
+.transparentForeground {
+    width: 60vw;
+    height: 90vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+    font-family: 'Broadbay';
+    src: url('fonts/BroadbayNormal-JJv7.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCFRO';
+    src: url('fonts/itc-fenice-regular-oblique.otf') format('opentype');
+}

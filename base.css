@@ -1,0 +1,102 @@
+/*body {
+    background-image: url('./images/backgroundgradient.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+for fuck's sake do not do this. this only works on 16:9.
+
+*/
+
+body {
+    background-image: linear-gradient(140deg, #7a26fe, #fe37c9);
+    background-attachment: fixed;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.centeredDown {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.titleEllipse {
+    width: 160px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(-5deg);
+}
+
+.anchorBottomLeft {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    transform: translate(0%, 0%);
+}
+
+.transparentForeground {
+    width: 56vw;
+    height: 1000px;
+    position: relative;
+    top: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.addHeightAtBottom {
+    width: 1px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.aboutMeBackground {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    background-color:rgba(40, 0, 0, 1);
+    border-radius: 50px;
+    width: 750px;
+    height: 80px;
+    box-shadow: 0px 10px;
+}
+
+.aboutMeTitle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px; 
+    font-family: Broadbay; 
+    font-size: 50px; 
+    z-index: 2; 
+    color: crimson;
+}
+
+@font-face {
+    font-family: 'Broadbay';
+    src: url('fonts/BroadbayNormal-JJv7.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITCFRO';
+    src: url('fonts/itc-fenice-regular-oblique.otf') format('opentype');
+}
+
+/*this is all complicated as fuck and i wish i
+ didn't have to know every detail about it. i 
+ genuinely think this is the worst thing i've
+ ever made. i can't guarantee this all won't
+ break at the slightest change, and i wouldn't
+ be surprised if it did.*/
