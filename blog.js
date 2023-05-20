@@ -13,17 +13,15 @@ fetch('./posts/posts.json')
             entryElement.innerHTML = `
             <h2>${entry.name}</h2>
             <h3><i>By ${entry.author}</i></h3>
-            <hr>
-            <img src="${entry.picture}" alt="${entry.picturealt}" class="blogPostImage">
             <p>Date: ${entry.date}</p>
             <hr>
+            <img src="${entry.picture}" alt="${entry.picturealt}" class="blogPostImage">
             <p>${entry.contents}</p>
           `;
           } else {
             entryElement.innerHTML = `
             <h2>${entry.name}</h2>
             <h3><i>By ${entry.author}</i></h3>
-            <hr>
             <p>Date: ${entry.date}</p>
             <hr>
             <p>${entry.contents}</p>
