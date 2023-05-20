@@ -16,6 +16,7 @@ fetch('./posts/posts.json')
             <hr>
             <img src="${entry.picture}" alt="${entry.picturealt}" class="blogPostImage">
             <p>Date: ${entry.date}</p>
+            <hr>
             <p>${entry.contents}</p>
           `;
           } else {
@@ -24,6 +25,7 @@ fetch('./posts/posts.json')
             <h3><i>By ${entry.author}</i></h3>
             <hr>
             <p>Date: ${entry.date}</p>
+            <hr>
             <p>${entry.contents}</p>
           `;
           }
