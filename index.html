@@ -1,21 +1,42 @@
----
-layout: default
----
+<html>
+    <head>
+        <title>Fifth's Page</title>
+        <link rel="stylesheet" href="base.css">
+    </head>
+    <body>
+        <div class="centered">
+            <div class="titleEllipse">
+            <h1 style="font-family:ITCFRO; transform: rotate(5deg); color:darkred; position:relative; top:-20px;">FifthGayRat</h1>
+            </div>
+        </div>
+            <div class="centered">
+                <div class="transparentForeground">
+                    <div class="centered" style="position: relative; top: 1vw; z-index: 1;">
+                        <svg width="54vw" height="60" fill="none">
+                            <rect width="54vw" height="15" y="45" fill="#2C2C2C"/>
+                            <rect width="54vw" height="15" y="30" fill="#9C59D1"/>
+                            <rect width="54vw" height="15" y="15" fill="#FCFCFC"/>
+                            <rect width="54vw" height="15" fill="#FCF434"/>
+                         </svg>
+                    </div>
+                <div class="aboutMeBackground">
+                    <div class="aboutMeTitle">
+                        ABOUT FIFTH GAY RAT
+                    </div>
+                </div>
+                <div style="height: 100px;"></div>
+                <div class="centered">
+                    <div style="width: 50vw; overflow: hidden;">
+                        hello! i'm the fifth gay rat. (fifth for short) i'm an amateur web developer and programmer, as seen by this website here. 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="centered" style="position: relative; top:80px;">
+            welcome to the bottom of the page
+            <div class="addHeightAtBottom"></div>
+        </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% if page.media == 'mobile' %}
-        {% include mobile.htm %}
-    {% else %}
-        {% include computers.htm %}
-    {% endif %}
-</head>
-<body>
-    {% if page.media == 'mobile' %}
-        {% include mobile.html %}
-    {% else %}
-        {% include computers.html %}
-    {% endif %}
-</body>
+        
+    </body>
 </html>
