@@ -12,6 +12,8 @@ fetch('./posts/posts.json')
           if (entry.picture) {
             entryElement.innerHTML = `
             <h2>${entry.name}</h2>
+            <h3>By ${entry.author}</h3>
+            <hr>
             <img src="${entry.picture}" alt="${entry.picturealt}" class="blogPostImage">
             <p>Date: ${entry.date}</p>
             <p>${entry.contents}</p>
@@ -19,6 +21,8 @@ fetch('./posts/posts.json')
           } else {
             entryElement.innerHTML = `
             <h2>${entry.name}</h2>
+            <h3>By ${entry.author}</h3>
+            <hr>
             <p>Date: ${entry.date}</p>
             <p>${entry.contents}</p>
           `;

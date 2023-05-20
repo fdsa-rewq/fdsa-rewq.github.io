@@ -3,33 +3,37 @@
     {
         "id": "000001",
         "name": "first blogpost test",
+        "author": "fifth",
         "picture": "",
         "picturealt": "",
-        "date": "18 May 2023, Published On XX XXX XXXX",
+        "date": "18 May 2023, Published On 19 May 2023",
         "contents": "hello. i'm testing out this blogpost thing."
     },
     {
         "id": "000002",
         "name": "second blogpost test",
+        "author": "fifth",
         "picture": "",
         "picturealt": "",
-        "date": "19 May 2023, Published on XX XXX XXXX",
+        "date": "19 May 2023, Published on 19 May 2023",
         "contents": "writing this the day after the last one. guess i'll add some stuff to this \n i'll just test some formatting here. \ntesting."
     },
     {
         "id": "000003",
         "name": "third blogpost test",
+        "author": "fifth",
         "picture": "images/discordlogo-1600px.png",
         "picturealt": "Discord Logo. Used for image testing.",
-        "date": "19 May 2023, Published on XX XXX XXXX",
+        "date": "19 May 2023, Published on 19 May 2023",
         "contents": "writing this just after the last one. image test."
     },
     {
         "id": "000004",
         "name": "fourth blogpost test",
+        "author": "fifth",
         "picture": "",
         "picturealt": "",
-        "date": "19 May 2023, Published on XX XXX XXXX",
+        "date": "19 May 2023, Published on 19 May 2023",
         "contents": "blog posts work. testing <a href=\"./index.html\">links</a>"
     }
 
