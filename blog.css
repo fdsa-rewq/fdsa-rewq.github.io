@@ -24,6 +24,10 @@ body {
     width: 10vw;
 }
 
+.blogPostImageBottom {
+    width: 20vw;
+}
+
 .centeredDown {
     display: flex;
     justify-content: center;
