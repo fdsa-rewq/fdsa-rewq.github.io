@@ -24,6 +24,7 @@ fetch('./posts/posts.json')
             ${imagesString}
             <p>${entry.contents}</p>
           `;
+          imagesString = '';
           } else if (entry.bottomimages) {
 
             for (let i = 0; i < entry.bottomimages.length; i++) {
@@ -38,6 +39,7 @@ fetch('./posts/posts.json')
             <p>${entry.contents}</p>
             ${imagesString}
           `;
+          imagesString = '';
           } else {
             entryElement.innerHTML = `
             <h2>${entry.name}</h2>
