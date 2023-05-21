@@ -12,7 +12,7 @@ fetch('./posts/posts.json')
           entryElement.classList.add('blogEntry');
           if (entry.images) {
 
-            for (let i = 0; i < entry.bottomimages.length; i++) {
+            for (let i = 0; i < entry.images.length; i++) {
               imagesString += `<img src="${entry.images[i]}" alt="${entry.picturealts[i]}" class="blogPostImage">`;
             }
 
