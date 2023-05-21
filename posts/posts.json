@@ -35,12 +35,6 @@
         "id": "000004",
         "name": "fourth blogpost test",
         "author": "fifth",
-        "images": [
-
-        ],
-        "picturealts": [
-
-        ],
         "date": "19 May 2023, Published on 19 May 2023",
         "contents": "blog posts work. testing <a href=\"./index.html\">links</a>"
     },
@@ -48,12 +42,6 @@
         "id": "000005",
         "name": "deepsink",
         "author": "deepsink",
-        "images": [
-
-        ],
-        "picturealts": [
-
-        ],
         "date": "19 May 2023, Published on 19 May 2023",
         "contents": "im rlly fucking gay for fish lackadaisy rn \n <hr> <h3><i>reply by fifth</i></h3> \n thank you deepsink."
     },
@@ -61,11 +49,6 @@
         "id": "000006",
         "name": "new image formats",
         "author": "fifth",
-        "pictureformat": [
-
-        ],
-        "picture": "",
-        "picturealt": "",
         "date": "20 May 2023, Published on 20 May 2023",
         "contents": "i'm gonna use this page to test out new image formats."
     },
