@@ -22,6 +22,7 @@ fetch('./posts/posts.json')
             <p>Date: ${entry.date}</p>
             <hr>
             ${imagesString}
+            <hr>
             <p>${entry.contents}</p>
           `;
           imagesString = '';
@@ -37,6 +38,7 @@ fetch('./posts/posts.json')
             <p>Date: ${entry.date}</p>
             <hr>
             <p>${entry.contents}</p>
+            <hr>
             ${imagesString}
           `;
           imagesString = '';
