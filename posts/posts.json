@@ -61,8 +61,12 @@
         "id": "000007",
         "name": "woah!!! a rocky was summoned!!",
         "author": "marshie",
-        "bottomimages": "https://pbs.twimg.com/profile_images/1642651904143503362/SC6bQAmk_400x400.jpg",
-        "picturealt": "rocky image woah",
+        "bottomimages": [
+            "https://pbs.twimg.com/profile_images/1642651904143503362/SC6bQAmk_400x400.jpg"
+        ],
+        "picturealt": [
+            "rocky image woah"
+        ],
         "date": "20 May 2023, Published on 20 May 2023",
         "contents": "enjoy this little guy. :)"
     }
