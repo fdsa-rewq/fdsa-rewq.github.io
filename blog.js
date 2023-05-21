@@ -31,7 +31,7 @@ fetch('./posts/posts.json')
             <p>Date: ${entry.date}</p>
             <hr>
             <p>${entry.contents}</p>
-            ${imageString}
+            ${imagesString}
           `;
           } else {
             entryElement.innerHTML = `
