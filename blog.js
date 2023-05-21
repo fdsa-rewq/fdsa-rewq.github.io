@@ -1,3 +1,4 @@
+let imagesString = '';
 fetch('./posts/posts.json')
       .then(response => response.json())
       .then(data => {
