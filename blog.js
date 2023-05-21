@@ -18,14 +18,19 @@ fetch('./posts/posts.json')
             <img src="${entry.picture}" alt="${entry.picturealt}" class="blogPostImage">
             <p>${entry.contents}</p>
           `;
-          } else if (entry.bottompicture) {
+          } else if (entry.bottomimages) {
+
+            for (let i = 0; i < entry.bottomimages.length; i++) {
+              imagesString += `<img src="${entry.bottomimages[i]}" alt="Image ${entry.picturealts[i]}">`;
+            }
+            
             entryElement.innerHTML = `
             <h2>${entry.name}</h2>
             <h3><i>By ${entry.author}</i></h3>
             <p>Date: ${entry.date}</p>
             <hr>
             <p>${entry.contents}</p>
-            <img src="${entry.bottompicture}" alt="${entry.picturealt}" class="blogPostImageBottom">
+            ${imageString}
           `;
           } else {
             entryElement.innerHTML = `
