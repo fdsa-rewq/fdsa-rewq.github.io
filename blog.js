@@ -10,19 +10,24 @@ fetch('./posts/posts.json')
         data.forEach(entry => {
           const entryElement = document.createElement('div');
           entryElement.classList.add('blogEntry');
-          if (entry.picture) {
+          if (entry.images) {
+
+            for (let i = 0; i < entry.bottomimages.length; i++) {
+              imagesString += `<img src="${entry.images[i]}" alt="${entry.picturealts[i]}" class="blogPostImage">`;
+            }
+
             entryElement.innerHTML = `
             <h2>${entry.name}</h2>
             <h3><i>By ${entry.author}</i></h3>
             <p>Date: ${entry.date}</p>
             <hr>
-            <img src="${entry.picture}" alt="${entry.picturealt}" class="blogPostImage">
+            ${imagesString}
             <p>${entry.contents}</p>
           `;
           } else if (entry.bottomimages) {
 
             for (let i = 0; i < entry.bottomimages.length; i++) {
-              imagesString += `<img src="${entry.bottomimages[i]}" alt="Image ${entry.picturealts[i]}">`;
+              imagesString += `<img src="${entry.bottomimages[i]}" alt="${entry.picturealts[i]}" class="blogPostImageBottom">`;
             }
             
             entryElement.innerHTML = `
