@@ -1,5 +1,5 @@
 let imagesString = '';
-fetch('./posts/posts.json')
+fetch('../posts/posts.json')
       .then(response => response.json())
       .then(data => {
         // Sort entries by ID in reverse order
