@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body {
+            background-attachment: fixed;
+            background-image: linear-gradient(to bottom right, #1f1f1f, #3f3f3f);
+        }
+        
+        .spin {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            transform: translate(-50%,-50%);
+            animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+        }
+
+        @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="spin">
+
+    </div>
+</body>
+</html>
